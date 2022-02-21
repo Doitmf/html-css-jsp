@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS의 링크 글자</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:w
+    ght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        html{font-size: 13px;}
+        body{font-family: 'Noto Sans KR';}
+        p{font-family: 'Noto Sans KR';} /*기본 font-size: 16px;*/
+        .font100{font-weight: 100;}
+        .font300{font-weight: 300;}
+        .font400{font-weight: 400;}
+        .font500{font-weight: 500;}
+        .font700{font-weight: 700;}
+        .font900{font-weight: 900;}
+    </style>
+</head>
+<body>
+    <h1>웹 폰트 사용 예</h1><!--span 테그의 활용-->
+    <p><span class="font900">안녕하세요</span> 글자 100입니다.</p>
+    <p>안녕하세요 글자 300입니다.</p>
+    <p>안녕하세요 글자 400입니다.</p>
+    <p>안녕하세요 글자 500입니다.</p>
+    <p>안녕하세요 글자 700입니다.</p>
+    <p>안녕하세요 글자 900입니다.</p>
+    <p style="font-size: 1.5em;">폰트크기<span style="font-size: 1.5em;">
+        1.5em
+    </span></p><!--em은 기본픽셀 곱하기-->
+    <p style="font-size: 24px;">폰트크기 <sapn style="font-size: 1.5rem;"></sapn>1.5em</p><!--em은 기본픽셀 곱하기-->
+    <p style="font-size: 1.5rem;">폰트크기 1.5rem</p><!--em은 기본픽셀 곱하기-->
+    <p style="font-size: 20px;">폰트크기 1.5rem</p><!--em은 기본픽셀 곱하기-->
+</body>
+</html>
