@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>position:fixed</title>
+    <style>
+        #box{
+            width: 10px;
+            height: 1000px;
+            background-color: green;
+        }
+        #a{
+            background-color: red;
+            padding: 10px 20px;
+            color: white;
+            position: fixed; top: 20px; right: 20px; /*fixed는 다른거랑 상관없이 무조건 절대적인 위치 고정시키는 테그*/
+        }
+    </style>
+</head>
+<body>
+   <h3>절대 위치 지정(position:fixed</h3>
+   <div id="box"></div> 
+   <div id="a">요소 A</div>
+</body>
+</html>
